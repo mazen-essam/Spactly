@@ -1,0 +1,117 @@
+.Diff {
+   background-color: transparent;
+   position: relative;
+}
+.lighting-Diff {
+   width: 4.2rem;
+   height: 4.70025rem;
+   margin-top: 0.51rem;
+}
+.Diff .Diff-section-top h3 {
+   font-family: Agrandir;
+   font-size: 3.75rem;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 4.375rem; /* 116.667% */
+   letter-spacing: 0.125rem;
+   margin-top: 6.41rem;
+   margin-bottom: 11rem;
+}
+.Diff button {
+   padding: 1rem 2.8125rem;
+
+   font-family: Agrandir;
+   font-size: 1.5625rem;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 3.125rem; /* 200% */
+   letter-spacing: 0.0625rem;
+   background: linear-gradient(#001b79, #ed5ab3);
+   background-clip: text;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   border: none;
+   /* color: linear-gradient(#001B79, #ED5AB3); */
+}
+
+.Diff-btn {
+   display: inline-block;
+   border-radius: 3.125rem;
+   background-color: #fff;
+}
+
+.Diff .item h3 {
+   font-family: Agrandir;
+   font-size: 6.25rem;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 8.25rem; /* 132% */
+   background: linear-gradient(262deg, #9aaef6 -8.01%, #ed5ab3 100%);
+   background-clip: text;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   margin-bottom: 0 !important;
+}
+.Diff .item:first-child {
+   margin-top: 5.96rem;
+}
+.Diff .item p {
+   color: #c4c4c4;
+   font-family: Roboto;
+   font-size: 1.125rem;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 1.70625rem; /* 151.667% */
+   text-transform: uppercase;
+   margin-bottom: 0 !important;
+}
+.Diff .item .Diff-sh3 {
+   font-family: Agrandir;
+   font-size: 6.25rem;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 8.25rem;
+   background: none;
+   background-clip: border-box;
+   -webkit-background-clip: border-box;
+   -webkit-text-fill-color: initial;
+   color: #9aaef6;
+}
+/* Default color varies based on browser/user-agent
+*/
+.Diff .Diff-all {
+   margin-top: 12rem;
+   margin-bottom: 2.7rem;
+}
+.Diff .Diff-Diff-q {
+   padding-top: 3.5rem;
+}
+.Diff .Diff-Diff-q::before {
+   content: "";
+   width: 4.2rem;
+   height: 4.70025rem;
+   position: absolute;
+   top: 2.91rem;
+   left: 42%;
+
+   background-image: url("../../../assets/Main-page/flash2.png");
+}
+.Diff .Diff-all h4 {
+   color: #fff;
+   text-align: center;
+   font-family: Agrandir;
+   font-size: 3.4375rem;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 100%; /* 3.4375rem */
+   letter-spacing: 0.06875rem;
+}
+.Diff .Diff-all h4 span {
+   color: #ed5ab3;
+   font-family: Agrandir;
+   font-size: 3.4375rem;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 100%;
+   letter-spacing: 0.06875rem;
+}

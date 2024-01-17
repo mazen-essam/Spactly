@@ -1,0 +1,108 @@
+.typeAnim {
+   font-size: 7.5em;
+   font-weight: 700;
+   margin-top: 2rem;
+   margin-bottom: 6rem;
+   color: #fff;
+}
+.color1 {
+   color: #48ffde;
+}
+.color2 {
+   color: orange;
+}
+.Main-header {
+   padding-top: 16.62em;
+   text-align: center;
+   /* background-image: url("../../../assets/Main-page/Property 1=Default.png"); */
+   background-size: cover;
+   background-color: #00000033;
+}
+.Main-header .search-bar {
+   width: 50%;
+   margin: auto;
+   position: relative;
+   display: block;
+   font-size: 1.2rem;
+}
+.Main-header .search-bar input {
+   width: 100%;
+   padding: 1rem 2rem;
+   font-size: 1.2rem;
+   border-radius: 40px;
+}
+.Main-header .search-bar .btn {
+   position: absolute;
+   background-color: #232323;
+   background-color: #232323;
+   right: 1rem;
+   bottom: 0.5rem;
+   font-size: 1.2rem;
+   background-color: #ffcc01;
+   border-radius: 40px;
+   top: 0.5rem;
+}
+.Main-header .search-header {
+   color: #fff;
+   text-align: center;
+   font-family: Agrandir;
+   font-size: 7.5rem;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 6.25rem; /* 83.333% */
+   letter-spacing: 0.0625rem;
+}
+.Main-header .header-ai {
+   color: #fff;
+   text-align: center;
+   font-family: Agrandir;
+   font-size: 2.25rem;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 3.125rem; /* 138.889% */
+   letter-spacing: 0.0625rem;
+   margin-bottom: 5rem;
+}
+.Main-header .btn1-header {
+   display: inline-flex;
+   padding: 1rem 2.8125rem;
+   justify-content: center;
+   align-items: center;
+   gap: 0.625rem;
+   border-radius: 3.125rem;
+   background: #fff;
+   margin-right: 8.25rem;
+}
+.Main-header .btn2-header {
+   display: inline-flex;
+   padding: 1rem 2.8125rem;
+   justify-content: center;
+   align-items: center;
+   gap: 0.625rem;
+   border-radius: 3.125rem;
+   border: 3px solid #fff;
+   color: #fff;
+}
+.Main-header .btn1-header,
+.Main-header .btn2-header {
+   text-align: center;
+   font-family: Agrandir;
+   font-size: 1.5625rem;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 3.125rem; /* 200% */
+   letter-spacing: 0.0625rem;
+}
+.Main-header .slider {
+   margin-top: 7.63rem;
+}
+.Main-header .slick-arrow {
+   display: none !important;
+}
+
+.Main-header .slider div img {
+}
+.Main-header .slider div {
+   display: flex;
+   align-items: center;
+}

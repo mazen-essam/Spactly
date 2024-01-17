@@ -1,0 +1,176 @@
+.Plan {
+   border-radius: 3.125rem;
+   background: linear-gradient(180deg, #fff 32.29%, #fff8fc 100%);
+   /* padding-left:4.44rem ; */
+   padding: 0.96188rem 1.20231rem;
+   padding-bottom: 2.52rem;
+}
+.Plan .img img {
+   width: 2.585rem;
+   height: 2.585rem;
+}
+.Plan .Plan-container {
+   margin-top: 3.87rem !important;
+}
+.Plan .Plan-2 .img {
+   position: relative;
+}
+.Plan .Plan-2 .img img {
+   width: 100%;
+   height: auto;
+}
+.Plan .Plan-2 .img .play-img {
+   content: "";
+   position: absolute;
+   z-index: 193;
+   width: 20%;
+   height: 20%;
+   top: 40%;
+   left: 40%;
+}
+.Plan .Plan-2 .img img::after {
+   /* content: "";
+   position: absolute;
+   z-index: 193;
+   width: 20%;
+   height: 13.35rem;
+   top: 10.25rem;
+   left: 14.75rem;
+   background-image: url("../../../assets/Main-page/Play button.svg");
+   background-size: cover; */
+}
+.Plan .Plan-2 {
+   position: relative;
+}
+.Plan .Plan-2::after {
+   /* content: "";
+   position: absolute;
+   z-index: 193;
+   width: 20%;
+   height: 13.35rem;
+   top: 10.25rem;
+   left: 14.75rem;
+   background-image: url("../../../assets/Main-page/Play button.svg");
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat; */
+}
+.Plan .try-plan {
+   color: #d48eb8;
+   font-family: Agrandir;
+   font-size: 1.25rem;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 120%; /* 1.5rem */
+   letter-spacing: 0.0125rem;
+   display: inline-block;
+   /* margin-top: 1rem; */
+}
+.Plan .try-container {
+   margin-top: 4.71rem !important;
+}
+.Plan .Plan-1 .button {
+   background-color: #001b79;
+   display: inline-block;
+   border-radius: 100px;
+}
+.Plan .Plan-1 button {
+   width: 100% !important;
+}
+/* .Plan .Plan-1 .button {
+   padding: 1rem 2.8125rem;
+
+   font-family: Agrandir;
+   font-size: 1.5625rem;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 3.125rem; 
+   letter-spacing: 0.0625rem;
+   background: linear-gradient(
+      90deg,
+      #fff -10.67%,
+      #fef5fa 26.54%,
+      #ed5ab3 114.67%
+   );
+   background-clip: text;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   border: none;
+} */
+/* .Plan .Plan-1 button {
+   display: inline-block;
+   border-radius: 3.125rem;
+   background: #001b79;
+} */
+.Plan .try-for-free-btn {
+   background-color: #001b79; /* Replace with the exact color code you need */
+   background: linear-gradient(
+      90deg,
+      #fff -10.67%,
+      #fef5fa 26.54%,
+      #ed5ab3 114.67%
+   );
+   background-clip: text;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   border: none; /* No border */
+   padding: 1rem 2.8rem; /* Top/bottom padding and left/right padding */
+   font-size: 16px; /* Text size */
+   font-weight: bold; /* Font weight */
+   border-radius: 25px; /* Rounded corners */
+   cursor: pointer; /* Cursor to indicate it's clickable */
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a slight shadow */
+   transition: background-color 0.3s, box-shadow 0.3s; /* Smooth transition for hover effects */
+}
+
+.Plan .Plan-1 h3 {
+   color: #001b79;
+
+   /* Subtitles */
+   font-family: Agrandir;
+   font-size: 3rem;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 110%; /* 3.4375rem */
+   letter-spacing: 0.0625rem;
+}
+.Plan .Plan-1 p {
+   color: #001b79;
+   font-family: Agrandir;
+   font-size: 1.75rem;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 130%; /* 2.275rem */
+   letter-spacing: 0.0175rem;
+   padding-left: 1.6rem;
+   margin-top: 1.68rem;
+}
+.Plan .Plan-1 .p-blue {
+   border-left: 0.15rem solid #6a89fb;
+}
+.Plan .Plan-1 .p-pink {
+   border-left: 0.15rem solid #ed5ab3;
+}
+.Plan .Plan-2 {
+}
+.css-heg063-MuiTabs-flexContainer {
+   justify-content: space-around;
+   align-items: stretch;
+}
+.Plan .Mui-selected,
+.Plan .css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected {
+   color: #ed5ab3 !important;
+}
+.Plan button:not(:disabled),
+[type="button"]:not(:disabled),
+[type="reset"]:not(:disabled),
+[type="submit"]:not(:disabled) {
+   /* cursor: pointer; */
+   width: 20%;
+   color: #606a8c8c;
+}
+@media screen and (max-width: 992px) {
+   .Plan .Plan-1 {
+      margin-top: 2rem;
+   }
+}

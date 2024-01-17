@@ -1,0 +1,72 @@
+.Power {
+   background: #fff;
+   padding: 4rem 2.5rem;
+   text-align: center;
+   width: 92.8%;
+   margin: auto;
+   border-radius: 3.125rem;
+   margin-top: 10rem;
+}
+.Power p img {
+   display: inline-block;
+   width: 1.7rem;
+}
+.Power h2 {
+   color: #001b79;
+   text-align: center;
+   font-family: Agrandir;
+   font-size: 3.4375rem;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 3.75rem; /* 109.091% */
+   letter-spacing: 0.0625rem;
+}
+.Power p {
+   color: #ed5ab3;
+   text-align: center;
+   font-family: Agrandir;
+   font-size: 1.5625rem;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 3.125rem; /* 200% */
+   letter-spacing: 0.0625rem;
+}
+.Power .row .col-lg-3 {
+   padding: 1rem 1.25rem;
+   border-radius: 1.875rem;
+   border: 1px solid #606a8c;
+   /* margin: 1rem 2rem; */
+   position: relative;
+   transition: all 0.3s;
+
+}
+.Power .row .col-lg-3 p {
+   font-family: Agrandir;
+   font-size: 1.8125rem;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 110%; /* 1.99375rem */
+   color: #001b79;
+   margin-bottom: 0;
+}
+.Power .row .col-lg-3 div {
+   position: absolute;
+   background-color: rgba(128, 128, 128, 0.308);
+   /* width: 95%; */
+   bottom: 0rem;
+   left: 1rem;
+   right: 1rem;
+   padding: 0.2rem;
+   border-radius: 20px;
+   display: none;
+   font-weight: 600;
+   font-size: 1.1rem;
+   
+   
+}
+.Power .row .col-lg-3:hover div {
+   display: block;
+}
+.Power .row .col-lg-3:hover  {
+    padding:2.2rem 1.25rem ;
+}

@@ -1,0 +1,43 @@
+.profile-story {
+   padding: 1.65rem;
+   border-radius: 1.25rem;
+   background: linear-gradient(180deg, #5e1f45 0%, #071649 61.46%);
+}
+
+.profile-story .img {
+   border-radius: 100px;
+   margin-right: 0.66rem;
+   overflow: hidden;
+}
+.profile-story .row h6 {
+   color: #fff;
+   font-family: Agrandir;
+   font-size: 1.32rem;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 1.65rem; /* 125% */
+   
+}
+
+.profile-story p {
+   color: #fff;
+   text-align: justify;
+   font-family: Agrandir;
+   font-size: 1.5625rem;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 2.1875rem; /* 140% */
+   padding-right: 1rem;
+   margin-top: 1.39rem;
+}
+.profile-story .row p {
+   color: #ed5ab3;
+   font-family: Agrandir;
+   font-size: 1.32rem;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 1.65rem; /* 125% */
+   padding-right: 0rem;
+   margin-top: 0rem;
+
+}

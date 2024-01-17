@@ -1,0 +1,121 @@
+.Trust {
+   padding: 5.5rem 4.5rem 0rem 4.5rem;
+   margin-top: 11.3rem;
+}
+.Trust .trust-banner {
+   background-color: transparent; /* Adjust the color to match your design */
+   color: #ffffff;
+   margin: 0 4.79rem 4.94rem 4.79rem;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.Trust .trust-text {
+   color: #fff;
+   font-family: Agrandir;
+   font-size: 3.125rem;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 4.375rem;
+   width: 60.1875rem; /* 140% */
+}
+.Trust .trust-text .img {
+   display: inline-flex;
+   width: 3rem;
+   height: 3rem;
+   transform: rotate(13.876deg);
+   justify-content: center;
+   align-items: center;
+   flex-shrink: 0;
+}
+
+.Trust .highlight {
+   color: #ed5ab3;
+   font-family: Agrandir;
+   font-size: 3.125rem;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 4.375rem;
+}
+
+.Trust .logos {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.Trust .logos .logo-container {
+   padding: 1.375rem;
+   background: #fff;
+   margin-left: 1.65rem;
+}
+
+.Trust .logo {
+   width: 1.375rem;
+   height: 1.375rem;
+}
+
+.Trust .square {
+   background-color: #fff; /* Base color for logos */
+}
+
+.Trust .pink {
+   background-color: #ff69b4; /* Adjust color to match your design */
+}
+
+.Trust .blue {
+   background-color: #1e90ff; /* Adjust color to match your design */
+}
+.Trust .trust-comments {
+   padding-left: 4.79rem;
+   padding-right: 4.79rem;
+}
+.Trust .trust-comments .card {
+   border: 1px solid #ffc107; /* Adjust the color to match the design */
+   border-radius: 10px; /* Rounded corners */
+}
+
+.Trust .trust-comments .card-title {
+   color: #ffc107; /* Adjust the color to match the design */
+}
+
+.Trust .trust-comments .card-body {
+   padding: 1rem; /* Padding inside the card */
+}
+
+/* The path to your image should be correct */
+.Trust .trust-comments .rounded-circle {
+   object-fit: cover; /* To make sure the image covers the area */
+}
+.Trust .trust-comments .card .img {
+   margin-bottom: 1.1rem;
+}
+.Trust .trust-comments .card .img img {
+   margin-right: 0.55rem;
+}
+.Trust .trust-comments .p-head {
+   color: #000;
+   font-family: Agrandir;
+   font-size: 1.1rem;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 1.375rem; /* 125% */
+}
+.Trust .trust-comments .p-sub {
+   color: #ed5ab3;
+   font-family: Agrandir;
+   font-size: 1.1rem;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 1.375rem; /* 125% */
+}
+
+@media screen and (max-width: 996px) {
+   /* .Trust {
+      text-align: center;
+   }
+   .Trust .row .col-lg-3 {
+      margin: 0px;
+      margin-top: 1rem;
+   } */
+}

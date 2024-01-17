@@ -1,0 +1,127 @@
+:root {
+   --Yellow: #7c454569;
+}
+
+.Spacetly {
+   width: 92.8%;
+   margin: auto;
+   background: #fff;
+   border-radius: 3.125rem;
+   text-align: center;
+   padding-left: 4.81rem;
+   padding-bottom: 2rem;
+   margin-top: 8.6rem;
+   
+}
+
+.Spacetly-main {
+   margin-top: 7.25rem;
+}
+
+.Spacetly button {
+   
+   padding: 1rem 2.8125rem;
+  
+   font-family: Agrandir;
+   font-size: 1.5625rem;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 3.125rem; /* 200% */
+   letter-spacing: 0.0625rem;
+   background: linear-gradient(
+      90deg,
+      #fff -10.67%,
+      #fef5fa 26.54%,
+      #ed5ab3 114.67%
+   );
+   background-clip: text;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   border: none;
+}
+.Spacetly .Spacetly-btn {
+   display: inline-block;
+   border-radius: 3.125rem;
+   background: #001b79;
+}
+
+.Spacetly .img-container {
+   margin-top: 3.75rem !important;
+   margin-bottom: 3.75rem !important;
+}
+.Spacetly-Q {
+   color: #001b79;
+   text-align: center;
+   font-family: Agrandir;
+   font-size: 3.4375rem;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 3.75rem; /* 109.091% */
+   letter-spacing: 0.0625rem;
+}
+.Spacetly .box1,
+.Spacetly .box2,
+.Spacetly .box3 {
+   width: 1.74rem;
+   height: 1.74rem;
+}
+
+.Spacetly .box1 {
+   border-radius: 0.17325rem;
+   border: 1.26px solid var(--Yellow);
+   background: #ed5ab3;
+   margin-top: 1.62rem;
+}
+.Spacetly .box2 {
+   border-radius: 0.17325rem;
+   border: 0.693px solid var(--Yellow, rgba(124, 69, 69, 0));
+   background: #fff;
+   margin-left: 0.87rem;
+   margin-right: 0.87rem;
+   margin-top: 1.62rem;
+}
+.Spacetly .box3 {
+   border-radius: 0.17325rem;
+   border: 0.693px solid var(--Yellow);
+   background: var(--Primary-Color, #001b79);
+   margin-top: 1.62rem;
+}
+.Spacetly-text1 h3,
+.Spacetly-text2 h3 {
+   color: #001b79;
+   font-family: "Agrandir";
+   font-size: 2.275rem;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 2.6845rem; /* 118% */
+   padding-left: 1.6rem;
+   /* margin-top: 2.45rem; */
+}
+.Spacetly-text1 p,
+.Spacetly-text2 p {
+   padding-left: 1.6rem;
+   color: #767676;
+   font-family: Agrandir;
+   font-size: 1.5625rem;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 1.875rem; /* 120% */
+    
+}
+.Spacetly-text1 h3 {
+   border-left: 0.15rem solid #ed5ab3;
+}
+.Spacetly-text2 h3 {
+   border-left: 0.15rem solid #6a89fb;
+}
+.Spacetly-text {
+   margin-top: 4.56rem;
+}
+.Spacetly-text1,.Spacetly-text2{
+    margin-bottom: 4rem;
+}
+@media screen and (max-width:1024px) {
+.Spacetly{
+   padding-left: 0;
+}
+}
